@@ -6,7 +6,7 @@
 	z-index: 2;
 }
 #beginningRecetario::before {
-	background-image: url("../images/recetarioBeginning.jpeg");
+	background-image: url("/images/nosotrosBeginning.jpeg");
 	background-position-y: 40%;
 	background-size: cover;
 	content: ' ';
