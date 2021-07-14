@@ -40,7 +40,7 @@ p {
 }
 #beginning::before {
 	background-size: cover;
-	background-image: url("/images/indexBeginning.jpeg");
+	background-image: url("images/indexBeginning.jpeg");
 	opacity: 0.65;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -155,7 +155,7 @@ li {
 	z-index: 2;
 }
 #recepiesContainer::before {
-	background-image: url("/images/recepiesIndex.jpeg");
+	background-image: url("images/recepiesIndex.jpeg");
 	background-position-y: 40%;
 	background-size: cover;
 	content: ' ';
