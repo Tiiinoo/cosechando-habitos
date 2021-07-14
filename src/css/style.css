@@ -33,7 +33,6 @@ p {
 }
 #beginning {
 	position: relative;
-	background-image: url("images/indexBeginning.jpeg");
 }
 #beginning  h1, .centeredText,#ask {
 	position: relative;
