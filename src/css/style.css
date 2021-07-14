@@ -1,0 +1,229 @@
+body {
+	font-family: Open Sans;
+}
+#logo {
+	width: 133px; 
+	height: 75px;
+	margin: 12.5px 15.5px;
+}
+.navbar {
+	font-family: Lora;
+	font-size: 22px;
+}	
+.nav-link {
+	margin-top: 10%;
+}
+.navbar-brand:hover, .nav-link:hover {
+	text-decoration: underline;
+	text-decoration-color: #87A985;
+	text-decoration-style: solid;
+	text-decoration-thickness: 3px;
+}
+h1, h2 {
+	font-family: Lora;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: bold;	
+}
+p {
+	margin: 5%;
+	font-family: Open Sans;
+}
+#beginning {
+	position: relative;
+}
+#beginning  h1, .centeredText,#ask {
+	position: relative;
+	z-index: 2;
+}
+#beginning::before {
+	background-size: cover;
+	background-image: url("/images/indexBeginning.jpeg");
+	opacity: 0.65;
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#beginningRow {
+	height: 86vh;
+	min-height: 552px;
+}
+#beginningtitle {
+	padding-left: 4%;
+	font-size: 50px;
+}
+#beginningText {
+text-align: justify;
+font-size: 26px;
+}
+.centeredText {
+	font-size: 1.14rem;
+}
+.buttonStyling {
+	background-color: #546747;
+	color: white;
+	border-radius: 100px;
+  color: #fff;
+	width: 13vw;
+	height: 3.2vw;
+	margin: 2% 30%;
+	font-weight: bolder;
+}
+#formationRow {
+	height: 100vh;
+	min-height: 850px;
+}
+#greenBackground {
+	background: #607A68;
+	right: 10%;
+}
+#leaf {
+	position: relative;
+	width: 188px;
+	height: 188px;
+	margin-left: 0px !important;
+	top: 70%;
+	transform: rotate(-8.14deg);
+	opacity: 10%;
+}
+#portrait {
+	border: 1px solid #FDDCA5;
+	left: 20%;
+	padding: 3.5%;
+}
+#personalFormation {
+	padding: 5% 0;
+}
+#treatment {
+	margin-top: 5%;
+}
+#treatmentsContainer {
+	margin: 5% auto;
+}
+.titleContainer {
+	align-items: center;
+	padding: 2% 0;
+}
+.titleLogo {
+	margin-right: 5%;
+	width: 80px;
+	height: 80px;
+}
+.logoContainer {
+	width: 240px;
+	height: 240px;
+	text-align: center;
+}
+#logoImageContainer {
+	border-radius: 90px;
+	background: #CCD9AC;
+}
+.logos {
+	width: 146px;
+	height: 146px;
+	padding: 20%;
+}
+.logoText {
+	margin: 15% 0%;
+	font-size: 0.85rem;
+
+}
+li {
+	margin-bottom: 3%;
+	margin-left: 4%;
+}
+#recipeBook {
+	margin-top: 5%;
+}
+#recepiesContainer {
+	position: relative;
+	text-align: -webkit-center;
+	height: 500px;
+	margin: 5% 0%;
+}
+#recepiesContainer  #receipeText, #receipeBook, #recepiesWhiteDiv {
+	position: relative;
+	z-index: 2;
+}
+#recepiesContainer::before {
+	background-image: url("/images/recepiesIndex.jpeg");
+	background-position-y: 40%;
+	background-size: cover;
+	content: ' ';
+	display: block;
+  position: absolute;
+	opacity: 0.65;
+	margin-bottom: 4%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+  height: 100%;
+}
+#recepiesWhiteDiv {
+	background: #FFFFFF;
+	box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+#receipeText {
+	margin: 5% 10%;
+	font-size: 1.125rem;
+}
+#recipeButton {
+	margin-bottom: 10%;
+}
+.card {
+	padding-right: 0px;
+	padding-left: 0px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px 18px rgba(84, 103, 71, 0.07);
+	border-radius: 10px;
+	border: none;
+	margin-top: 6%;
+}
+.card-img-top {
+	height: 260.41px;
+}
+.card-title {
+	margin-bottom: 10%;
+	height: 26px;
+	left: 25.58px;
+	top: 264.32px;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 26px;
+	text-align: center;
+	color: #FAB73D;
+}
+.card-text {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 0.01em;
+	color: #2B331F;
+	margin: 15% auto;
+}
+.seeMore {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 44px;
+	text-decoration-line: underline;
+	color: #546747;
+	cursor: pointer;
+	margin: 5%;
+}

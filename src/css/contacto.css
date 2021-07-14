@@ -1,0 +1,24 @@
+#beginningContacto  {
+	position: relative;
+  height: 500px;
+}
+#beginningContacto h1, .centeredText,#ask {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+#beginningContacto::before {
+	background-image: url("/images/contactoBeginning.jpeg");
+	background-position-y: 40%;
+	background-size: cover;
+	content: ' ';
+	display: block;
+  position: absolute;
+	opacity: 0.65;
+	margin-bottom: 4%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+  height: 100%;
+}

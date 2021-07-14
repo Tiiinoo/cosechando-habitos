@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recetario</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../src/css/animate.min.css">
+	<link rel="stylesheet" href="../src/css/style.css">
+	<link rel="stylesheet" href="../src/css/recetario.css">
+	<script src="../src/js/jquery.min.js"></script>
+	<script defer src="../src/js/script.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container"> 
+			<div class="row">
+				<div class="d-flex col-lg-10">
+					<img id="logo" src="../images/logo.png" alt="F. Salvia Nutrición - Logo">
+					<div class="d-flex offset-lg-5">
+						<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+							<a class="navbar-brand" href="../index.html">Inicio</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item active">
+										<a class="nav-link" href="servicios.html">Servicios<span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="recetario.html">Recetario<span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+									</li>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="beginningRecetario" class="container-fluid">
+			<div id="beginningRow" class="row align-content-center justify-content-center">
+				<div id="starting">
+					<h1 id="title">“Te acerco recetas, tips, ¡y mucho más!”</h1>
+				</div>
+			</div>
+		</div>
+		<div id="suggestions" class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="d-flex justify-content-center align-items-center titleContainer col-8 offset-1">
+					<img id="okLogo" class="titleLogo" src="../images/ok.png" alt="Ok logo">
+					<h2 class="col-12">Sugerencias para una buena alimentación</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center align-content-center">
+				<div class="col-10">
+					<p>Sabemos que una alimentación adecuada es esencial para mantener un buen
+						estado de salud. Según la etapa biológica que transitemos (niñez y 
+						adolescencia, embarazo y lactancia, adultez), nuestros requerimientos se 
+						van modificando y hay nutrientes que actúan como protagonistas debido a 
+						la función que cumplen en el organismo.
+					</p>
+					<p>	
+						Las guías alimentarias de nuestro país, sugieren consumir diferentes 
+						grupos de alimentos a lo largo del día, ya que no existe ningún alimento 
+						completo que por sí solo nos aporte todos los nutrientes que necesitamos 
+						en cantidades adecuadas.
+					</p>
+					<p>	
+						Por último, no debemos olvidar que hay varios factores que se exponen al
+						momento de alimentarnos, como nuestras costumbres, tradiciones, hábitos,
+						factores económicos, disponibilidad de alimentos según el lugar dónde 
+						vivimos, gustos y preferencias por determinados alimentos, el tiempo que
+						le dedicamos a preparar las comidas y al acto de comer, cada uno de estos
+						factores hace que cada individuo adopte una alimentación distinta, 
+						válida a pesar de las diferencias.
+					</p>
+					<div>
+						<button id="ask" class="buttonRecetario" onclick="window.open('https://drive.google.com/file/d/130Uf0xzyl0beCciHWpt2mXNNYN555-aX/view?usp=sharing', '_blank')">Ir al recetario</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tips" class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="d-flex justify-content-center align-items-center titleContainer">
+					<img id="organics" class="titleLogo" src="../images/organics.png" alt="Organics foods logo">
+					<h2 class="col-12">Tips y consejos saludables</h2>
+				</div>
+			</div>
+			<div id="tipCardsContainer" class="col-lg-10 offset-lg-1">
+				<div class="row justify-content-center">
+					<div id="tipCard1" class="card col-lg-3">
+						<img class="card-img-top" src="/images/card1Image.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Vitamina D</h4>
+							<p class="card-text">
+								La vitamina D es una vitamina liposoluble, que se encuentra mayormente
+								en pescados grasos como salmón, trucha, atún, caballa; también en leche, 
+								yogures y quesos fortificados, yema de huevo.
+								Junto con el calcio, ayuda a prevenir la osteoporosis.
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard2" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="/images/card2Image.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Nutrición y rosácea</h4>
+							<p class="card-text">
+								La rosácea es una patología crónica inflamatoria, que se caracteriza 
+								por el enrojecimiento de ciertas zonas de la cara, engrosamiento de 
+								piel, entre otras. 
+								Si bien para el tratamiento tenes que consultar con un dermatólogo 
+								especializado, te comparto estos tips para contribuir a su control...
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard3" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="/images/card3Image.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Microbiota intestinal</h4>
+							<p class="card-text">
+								La microbiota es el conjunto de microorganismos que vive en nuestro 
+								intestino. ¿Cuáles son sus funciones?
+								-Confiere beneficios nutricionales como la fermentación de fibra 
+								no digerible para producir ácidos grasos de cadena corta (AGCC)...
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard4" class="card col-lg-3">
+						<img id="imgCard4" class="card-img-top" src="../images/card4Image.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Tratamiento nutricional</h4>
+							<p class="card-text">
+								Muchos pacientes cuando les pregunto en su primera consulta conmigo 
+								si han realizado tratamiento nutricional previo o el por qué creen 
+								que no han resultado todos los tratamientos anteriores, me refieren 
+								que han tenido algunas malas experiencias referidas al trato, las 
+								restricciones, la angustia por no llegar a cumplir objetivos...
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard5" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="../images/card5Image.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Nutrición y piel</h4>
+							<p class="card-text">
+								Nuestra piel se renueva cada 28 días, la nutrición está estrechamente 
+								relacionada y es necesaria para todos los procesos biológicos de la 
+								piel, desde la juventud hasta el envejecimiento o la enfermedad...
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard6" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="../images/card6Image.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Sodio y enlatados</h4>
+							<p class="card-text">
+								Sabías qué? 
+								Los alimentos enlatados tipo atún o ciertos vegetales contienen mucha 
+								cantidad de sodio (sal). 
+								Para reducir su contenido te recomiendo elegir aquellos que sean “al 
+								agua” en reemplazo “en aceite”.
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="seeMoreDiv" class="d-flex justify-content-center">
+				<p class="seeMore"><a>Ver más</a></p>
+			</div>
+			<div id="tipCardsContainer2" class="col-lg-10 offset-lg-1" style="display:none">
+				<div class="row justify-content-center">
+					<div id="tipCard7" class="card col-lg-3">
+						<img class="card-img-top" src="../images/imgCard7.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Microbiota, alimentos que favorecen</h4>
+							<p class="card-text">
+								Estudios recientes han demostrado que una dieta rica en grasas 
+								saturadas y azúcares, modifica la microbiota intestinal, lo cual 
+								podría explicar el desarrollo concomitante de enfermedades como la 
+								diabetes tipo 2, obesidad y enfermedades inflamatorias intestinales.
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard8" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="../images/imgCard8.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Compra inteligente</h4>
+							<p class="card-text">
+								Para optimizar el tiempo de tu compra, lo ideal es realizar una 
+								lista de compras saludable y al llegar al lugar, hacer un recorrido 
+								inteligente. Pero, ¿Cómo se realiza?...
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard9" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="../images/imgCard9.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Hablemos de diabetes</h4>
+							<p class="card-text">
+								Muchas veces los pacientes diabéticos me consultan si tienen que 
+								erradicar los hidratos de carbono de su alimentación. Pero eliminarlos 
+								no es la solución.
+								Por esto hoy te comparto 4 tips que van a favorecer tu respuesta 
+								glucémica...
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div><div id="tipCard10" class="card col-lg-3">
+						<img class="card-img-top" src="../images/imgCard10.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Nutrición y ciclo menstrual</h4>
+							<p class="card-text">
+								Algunos estudios hablan sobre el aumento de apetito y antojo sobre 
+								determinados alimentos durante la llamada fase lútea, que comprende 
+								entre el día 14 a 28 del ciclo.
+								Esto se asocia con el aumento de la hormona progesterona, que predomina
+								en dicha fase.
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+					<div id="tipCard11" class="card col-lg-3 offset-lg-1">
+						<img class="card-img-top" src="../images/imgCard11.png" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Dieta, ¿Por qué le decimos que no?</h4>
+							<p class="card-text">
+								A menudo la palabra "dieta" aparece explícita en muchas frases de mis
+								pacientes que me visitan por primera vez.
+								La nutrición se ha ido transformando a tal punto que las dietas han 
+								quedado en el camino.
+								Si queres saber más, haz click acá.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="goBackDiv" class="d-flex justify-content-center">
+					<p class="goBack">Volver atrás</p>
+				</div>
+			</div>
+			</div>
+			<div id="moreInfo" class="col-lg-10 offset-lg-1">
+				<div id="moreInfoText" class="row justify-content-center">
+					<div id="greenRectangle" class="col-lg-12"></div>
+					<p>Para más información y tips de alimentación saludable, te invito a 
+						seguirme en redes y contactarte conmigo.
+					</p>
+				</div>
+			</div>	
+		</div>
+	</main>
+	
+	<script src="../src/js/popper.min.js"></script>
+	<script src="../src/js/bootstrap.min.js"></script>
+</body>
+</html>
