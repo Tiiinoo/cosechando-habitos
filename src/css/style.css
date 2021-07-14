@@ -155,7 +155,7 @@ li {
 	z-index: 2;
 }
 #recepiesContainer::before {
-	background-image: url("images/recepiesIndex.jpeg");
+	background-image: url("/images/recepiesIndex.jpeg");
 	background-position-y: 40%;
 	background-size: cover;
 	content: ' ';
