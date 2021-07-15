@@ -26,12 +26,18 @@
 	margin-top: 2%;
 }
 @media only screen and (min-width:576px) and (max-width:768px) {
-	#title {
+	#title, .sectionTitle {
 		text-align: center;
+	}
+	#formationContinued {
+		margin-top: 260%;
 	}
 }
 @media only screen and (max-width:575px) {
-	#title {
+	#title, .sectionTitle {
 		text-align: center;
+	}
+	#formationContinued {
+		margin-top: 260%;
 	}
 }
