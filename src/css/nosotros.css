@@ -25,3 +25,13 @@
 #formationContinued {
 	margin-top: 2%;
 }
+@media only screen and (min-width:576px) and (max-width:768px) {
+	#title {
+		text-align: center;
+	}
+}
+@media only screen and (max-width:575px) {
+	#title {
+		text-align: center;
+	}
+}

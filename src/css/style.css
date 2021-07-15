@@ -243,6 +243,12 @@ li {
 		height: 100px;
 		padding: 2%;
 	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	.titleContainer {
+		margin-top: 5%;
+	}
 }
 @media only screen and (max-width:575px) {
 	#beginningtitle {
@@ -257,5 +263,11 @@ li {
 		width: auto;
 		height: auto;
 		padding: 2%;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	.titleContainer {
+		margin-top: 5%;
 	}
 }

@@ -62,3 +62,46 @@
 	color: #546747;
 	cursor: pointer;
 }
+@media only screen and (min-width:576px) and (max-width:768px) {
+	#title {
+		text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.buttonRecetario {
+		width: auto;
+		height: auto;
+		padding: 2%;
+	}
+	.titleContainer {
+		text-align: center;
+	}
+	.titleLogo {
+		margin-right: 0%;
+	}
+	#tipCard7, #tipCard8, #tipCard9 {
+		margin-top: 6%;
+	}
+}
+@media only screen and (max-width:575px) {
+	#title {
+		text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.buttonRecetario {
+		width: auto;
+		height: auto;
+		padding: 2%;
+		margin: 2% 25%;
+	}
+	.titleContainer {
+		text-align: center;
+	}
+	.titleLogo {
+		margin-right: 0%;
+	}
+	#tipCard7, #tipCard8, #tipCard9 {
+		margin-top: 6%;
+	}
+}
