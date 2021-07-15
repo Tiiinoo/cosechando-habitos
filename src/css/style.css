@@ -250,9 +250,21 @@ li {
 	.titleContainer {
 		margin-top: 5%;
 	}
+	#formation {
+		min-height: 1800px;
+	}
 	#leaf {
 		top: 75%;
 		right: 10%;
+	}
+	.titleLogo {
+		margin-right: 1%;
+	}
+	.sectionTitle {
+		text-align: center;
+	}
+	#recipeBook {
+		height: 85vh;
 	}
 }
 @media only screen and (max-width:575px) {
@@ -288,5 +300,20 @@ li {
 	li {
 		margin-left: 0%;
 		padding-right: 10%;
+	}
+	#treatment {
+		margin-top: 260%;
+	}
+	#treatmentsContainer {
+		flex-flow: wrap;
+	}
+	.titleLogo {
+		margin-right: 1%;
+	}
+	.sectionTitle {
+		text-align: center;
+	}
+	#recipeBook {
+		height: 85vh;
 	}
 }
