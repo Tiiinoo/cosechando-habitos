@@ -19,11 +19,6 @@ body {
 	text-decoration-style: solid;
 	text-decoration-thickness: 3px;
 }
-.collapse.show {
-	position: absolute;
-	top: 65%;
-	z-index: 2;
-}
 h1, h2 {
 	font-family: Lora;
 	font-weight: bold;
@@ -331,5 +326,10 @@ li {
 	}
 	.navbar-collapse {
 		position: absolute;
+	}
+	.collapse.show {
+		position: absolute;
+		top: 65%;
+		z-index: 2;
 	}
 }
