@@ -82,6 +82,9 @@
 	#tipCard7, #tipCard8, #tipCard9 {
 		margin-top: 6%;
 	}
+	#moreInfoText {
+		text-align: center;
+	}
 }
 @media only screen and (max-width:575px) {
 	#title {
@@ -103,5 +106,8 @@
 	}
 	#tipCard7, #tipCard8, #tipCard9 {
 		margin-top: 6%;
+	}
+	#moreInfoText {
+		text-align: center;
 	}
 }
